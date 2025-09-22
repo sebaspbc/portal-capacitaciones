@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Creamos una instancia de Axios con la URL base de la API
 const api = axios.create({
-  baseURL: "http://localhost:4000/api", // URL del backend
+  baseURL: "https://portal-capacitaciones.onrender.com/api", // URL del backend
 });
 
 // Interceptor para agregar token JWT automáticamente en cada petición
