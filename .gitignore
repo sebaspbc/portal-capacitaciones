@@ -1,0 +1,36 @@
+# ----------------------------
+# Node.js (backend y frontend)
+# ----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ----------------------------
+# Variables de entorno
+# ----------------------------
+.env
+
+# ----------------------------
+# Build / dist / logs
+# ----------------------------
+dist/
+build/
+logs/
+*.log
+
+# ----------------------------
+# Sistema operativo / IDE
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ----------------------------
+# Archivos específicos de paquetes
+# ----------------------------
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
