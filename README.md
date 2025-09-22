@@ -32,9 +32,9 @@ Repositorio del proyecto de prueba técnica: un portal de capacitaciones con bac
 ### 1️⃣ Backend
 1. Crear un archivo `.env` en la carpeta del backend con las siguientes variables de ejemplo:
 
-PORT=4000
+PORT=(Por defecto se puede utilizar el 4000)
 JWT_SECRET=token_ejemplo_123
-MONGO_URI=mongodb+srv://usuario:password@cluster.mongodb.net/portal
+MONGO_URI=(Utilizar la conexión generada en el cluster que se haya creado)
 
 
 > Asegúrate de usar un usuario y contraseña válidos de tu cluster de MongoDB.
